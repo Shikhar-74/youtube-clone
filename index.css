@@ -100,7 +100,55 @@
     
     
 }
-@media (max-width: 768px) {
+.side-bar{
+    height: 700px;
+    width: 216px;
+    border: 1px solid black;
+    background-color: black;
+}
+.second-img-bar{
+    border-top: 1px solid rgb(46, 44, 44);;
+}
+
+.home{
+    color: white;
+    height: 50px;
+    width: 180px;
     
 }
 
+.Subscription{
+    color: white;
+    height: 50px;
+    width: 180px;
+}
+.Shorts{
+    color: white;
+    height: 50px;
+    width: 180px;
+}
+h3{
+    color: white;
+    height: 40px;
+    width: 180px;
+}
+.History{
+    color: white;
+    height: 40px;
+    width: 180px;
+}
+.Playlist{
+    color: white;
+    height: 40px;
+    width: 180px;
+}
+.watch-latter{
+    color: white;
+    height: 40px;
+    width: 180px;
+}
+.liked{
+    color: white;
+    height: 40px;
+    width: 180px;
+}
