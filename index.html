@@ -3,13 +3,14 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>YouTube</title>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
     />
   </head>
   <link rel="stylesheet" href="index.css" />
+  <link rel="shortcut icon" href="https://img.icons8.com/color/240/youtube-play.png" type="image/x-icon">
 
   <body>
     <div class="nav-1">
@@ -44,9 +45,6 @@
         </div>
       </div>
 
-
-
-
       <div class="searchbar">
         <div class="search-box">
           <input class="search-input" type="text" placeholder="search" />
@@ -61,65 +59,579 @@
       </div>
 
       <div class="nav-icons">
-        <svg xmlns="http://www.w3.org/2000/svg" height="24" style="pointer-events: none; display: inherit; width: 100%; height: 100%;" viewBox="0 0 24 24" width="24" focusable="false" aria-hidden="true"><path d="M14 13h-3v3H9v-3H6v-2h3V8h2v3h3v2zm3-7H3v12h14v-6.39l4 1.83V8.56l-4 1.83V6m1-1v3.83L22 7v8l-4-1.83V19H2V5h16z" fill="white"/></svg>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          height="24"
+          style="
+            pointer-events: none;
+            display: inherit;
+            width: 100%;
+            height: 100%;
+          "
+          viewBox="0 0 24 24"
+          width="24"
+          focusable="false"
+          aria-hidden="true"
+        >
+          <path
+            d="M14 13h-3v3H9v-3H6v-2h3V8h2v3h3v2zm3-7H3v12h14v-6.39l4 1.83V8.56l-4 1.83V6m1-1v3.83L22 7v8l-4-1.83V19H2V5h16z"
+            fill="white"
+          />
+        </svg>
 
-        <svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24" height="24" viewBox="0 0 24 24" width="24" focusable="false" aria-hidden="true" style="pointer-events: none; display: inherit; width: 100%; height: 100%;"><path d="M10 20h4c0 1.1-.9 2-2 2s-2-.9-2-2zm10-2.65V19H4v-1.65l2-1.88v-5.15C6 7.4 7.56 5.1 10 4.34v-.38c0-1.42 1.49-2.5 2.99-1.76.65.32 1.01 1.03 1.01 1.76v.39c2.44.75 4 3.06 4 5.98v5.15l2 1.87zm-1 .42-2-1.88v-5.47c0-2.47-1.19-4.36-3.13-5.1-1.26-.53-2.64-.5-3.84.03C8.15 6.11 7 7.99 7 10.42v5.47l-2 1.88V18h14v-.23z" fill="white"/></svg>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          enable-background="new 0 0 24 24"
+          height="24"
+          viewBox="0 0 24 24"
+          width="24"
+          focusable="false"
+          aria-hidden="true"
+          style="
+            pointer-events: none;
+            display: inherit;
+            width: 100%;
+            height: 100%;
+          "
+        >
+          <path
+            d="M10 20h4c0 1.1-.9 2-2 2s-2-.9-2-2zm10-2.65V19H4v-1.65l2-1.88v-5.15C6 7.4 7.56 5.1 10 4.34v-.38c0-1.42 1.49-2.5 2.99-1.76.65.32 1.01 1.03 1.01 1.76v.39c2.44.75 4 3.06 4 5.98v5.15l2 1.87zm-1 .42-2-1.88v-5.47c0-2.47-1.19-4.36-3.13-5.1-1.26-.53-2.64-.5-3.84.03C8.15 6.11 7 7.99 7 10.42v5.47l-2 1.88V18h14v-.23z"
+            fill="white"
+          />
+        </svg>
 
+        <img src="./image/shikhar.png" alt="" style="border-radius: 50px;">
       </div>
     </div>
 
-
-    <div class="side-bar">
+    <div class="main">
+      <div class="side-bar">
         <div class="first-img-bar">
-            <div class="home">
-                <img src="./image/home.svg" alt="">
-                <span>Home</span>
-            </div>
-        
+          <div class="home s-opt">
+            <img src="./image/home.svg" alt="" />
+            <span>Home</span>
+          </div>
 
-            <div class="Shorts">
-                <img src="./image/shorts.svg" alt="">
-                <span>Shorts</span>
+          <div class="Shorts s-opt">
+            <img src="./image/shorts.svg" alt="" />
+            <span>Shorts</span>
+          </div>
+
+          <div class="Subscription s-opt">
+            <img src="./image/subscription.svg" alt="" />
+            <span>Subscription</span>
+          </div>
+        </div>
+
+        <div class="second-img-bar">
+          <h3>You</h3>
+          <div class="History s-opt">
+            <img src="./image/History.svg" alt="" />
+            <span>History</span>
+          </div>
+
+          <div class="Playlist s-opt">
+            <img src="./image/list.svg" alt="" />
+            <span>Playlist</span>
+          </div>
+
+          <div class="watch-latter s-opt">
+            <img src="./image/watch-latter.svg" alt="" />
+            <span>Watch latter</span>
+          </div>
+
+          <div class="liked s-opt">
+            <img src="./image/liked.svg" alt="" />
+            <span>liked</span>
+          </div>
+        </div>
+
+        <div class="third-img-bar">
+          <h3>Subscription</h3>
+
+          <div class="sub1 s-opt">
+            <img src="./image/unnamed.jpg" alt="" />
+            <span>Shikhar shukla</span>
+          </div>
+
+          <div class="sub2 s-opt">
+            <img src="./image/channels4_profile.jpg" alt="" />
+            <span>Sandeep dada</span>
+          </div>
+
+          <div class="all-subscription s-opt">
+            <img src="./image/All subscription.svg" alt="" />
+            <span>All Subscription</span>
+          </div>
+        </div>
+
+        <div class="fourth-img-bar">
+          <h3>Explore</h3>
+          <div class="trending s-opt">
+            <img src="./image/trending.svg" alt="" />
+            <span>Trending</span>
+          </div>
+
+          <div class="shoping s-opt">
+            <img src="./image/shoping.svg" />
+            <span>Shoping</span>
+          </div>
+
+          <div class="music s-opt">
+            <img src="./image/music.svg" alt="" />
+            <span>Music</span>
+          </div>
+
+          <div class="movie s-opt">
+            <img src="./image/movie.svg" alt="" />
+            <span>Movie</span>
+          </div>
+
+          <div class="live s-opt">
+            <img src="./image/live.svg" alt="" />
+            <span>Live</span>
+          </div>
+
+          <div class="game s-opt">
+            <img src="./image/game.svg" alt="" />
+            <span>Game</span>
+          </div>
+
+          <div class="news s-opt">
+            <img src="./image/news.svg" alt="" />
+            <span>News</span>
+          </div>
+
+          <div class="sports s-opt">
+            <img src="./image/sports.svg" alt="" />
+            <span>Sports</span>
+          </div>
+
+          <div class="courses s-opt">
+            <img src="./image/courses.svg" alt="" />
+            <span>Courses</span>
+          </div>
+
+          <div class="faishon s-opt">
+            <img src="./image/faison.svg" alt="" />
+            <span>Faishon</span>
+          </div>
+
+          <div class="podcast s-opt">
+            <img src="./image/podcast.svg" alt="" />
+            <span>Podcast</span>
+          </div>
+        </div>
+
+        <div class="fifth-img-bar">
+          <h3>More from youtube</h3>
+          <div class="youtube1 s-opt">
+            <img src="./image/ytimg.svg" alt="" />
+            <span>youTube premium</span>
+          </div>
+
+          <div class="youtube2 s-opt">
+            <img src="./image/ms.svg" alt="" />
+            <span>youTube music</span>
+          </div>
+
+          <div class="youtube3 s-opt">
+            <img src="./image/blackyt.svg" alt="" />
+            <span>youTube kids</span>
+          </div>
+        </div>
+
+        <div class="six-img-bar">
+          <div class="setting s-opt">
+            <img src="./image/setting.svg" alt="" />
+            <span>Setting</span>
+          </div>
+
+          <div class="report s-opt">
+            <img src="./image/flag.svg" alt="" />
+            <span>Report history</span>
+          </div>
+
+          <div class="help s-opt">
+            <img src="./image/question.svg" alt="" />
+            <span>Help</span>
+          </div>
+
+          <div class="feedback s-opt">
+            <img src="./image/feedback.svg" alt="" />
+            <span>Send feedback</span>
+          </div>
+        </div>
+      </div>
+      <div class="main-content">
+    
+          <ul class="list">
+            <li class="all-btn">All</li>
+            <li>Music</li>
+            <li>Web Development</li>
+            <li>Podcast</li>
+            <li>Vocal language</li>
+            <li>Web Sries</li>
+            <li>Indian Pop Music</li>
+            <li>Romentic comedies</li>
+            <li>Dubbing</li>
+            <li>Data type</li>
+            <li>Thoughts</li>
+            <li>Study Skills</li>
+            <li>Telenovelas</li>
+            <li>Thriller</li>
+            <li>Live</li>
+            <li>Story Telling</li>
+            <li>AI</li>
+            <li>SQL</li>
+            <li>Recently Uploaded</li>
+            <li>Watched</li>
+            <li>New to you</li>
+          </ul>
+      <!-- <div class="check"> -->
+
+          <div class="img-container">
+            <img src="./image/hq720 (1).webp" alt="" class="img" />
+            
+            <div class="img-text">
+              <div>
+              <img src="./image/channels4_profile (1).jpg" alt="" class="newimg">
             </div>
 
-            <div class="Subscription">
-                <img src="./image/subscription.svg" alt="">
-                <span>Subscription</span>
+            <div class="newtext">
+                <p class="title">How To Control Your Mind | Buddhism In English</p>
+                <p class="category">Buddhism</p>
+                <p class="views">1.9M views • 1 year ago</p>
+              </div>
             </div>
-        </div>    
+          </div>
+
+        <div class="img-container">
+            <img src="./image/hq720 (2).webp" alt="" class="img" />
+            
+            <div class="img-text">
+              <div>
+              <img src="./image/channels4_profile (2).jpg" alt="" class="newimg">
+            </div>
+
+            <div class="newtext">
+                <p class="title">How To Control Your Mind | Buddhism In English</p>
+                <p class="category">Buddhism</p>
+                <p class="views">1.9M views • 1 year ago</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="img-container">
+            <img src="./image/hq720 (3).webp" alt="" class="img" />
+            
+            <div class="img-text">
+              <div>
+              <img src="./image/channels4_profile (3).jpg" alt="" class="newimg">
+            </div>
+
+            <div class="newtext">
+                <p class="title">How To Control Your Mind | Buddhism In English</p>
+                <p class="category">Buddhism</p>
+                <p class="views">1.9M views • 1 year ago</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="img-container">
+            <img src="./image/hq720 (4).webp" alt="" class="img" />
+            
+            <div class="img-text">
+              <div>
+              <img src="./image/channels4_profile (4).jpg" alt="" class="newimg">
+            </div>
+
+            <div class="newtext">
+                <p class="title">How To Control Your Mind | Buddhism In English</p>
+                <p class="category">Buddhism</p>
+                <p class="views">1.9M views • 1 year ago</p>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="img-container">
+            <img src="./image/hq720 (5).webp" alt="" class="img" />
+            
+            <div class="img-text">
+              <div>
+              <img src="./image/channels4_profile (1).jpg" alt="" class="newimg">
+            </div>
+
+            <div class="newtext">
+                <p class="title">How To Control Your Mind | Buddhism In English</p>
+                <p class="category">Buddhism</p>
+                <p class="views">1.9M views • 1 year ago</p>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="img-container">
+            <img src="./image/hq720 (6).webp" alt="" class="img" />
+            
+            <div class="img-text">
+              <div>
+              <img src="./image/channels4_profile (2).jpg" alt="" class="newimg">
+            </div>
+
+            <div class="newtext">
+                <p class="title">How To Control Your Mind | Buddhism In English</p>
+                <p class="category">Buddhism</p>
+                <p class="views">1.9M views • 1 year ago</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="img-container">
+            <img src="./image/hq720 (7).webp" alt="" class="img" />
+            
+            <div class="img-text">
+              <div>
+              <img src="./image/channels4_profile (3).jpg" alt="" class="newimg">
+            </div>
+
+            <div class="newtext">
+                <p class="title">How To Control Your Mind | Buddhism In English</p>
+                <p class="category">Buddhism</p>
+                <p class="views">1.9M views • 1 year ago</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="img-container">
+            <img src="./image/hq720 (8).webp" alt="" class="img" />
+            
+            <div class="img-text">
+              <div>
+              <img src="./image/channels4_profile (4).jpg" alt="" class="newimg">
+            </div>
+
+            <div class="newtext">
+                <p class="title">How To Control Your Mind | Buddhism In English</p>
+                <p class="category">Buddhism</p>
+                <p class="views">1.9M views • 1 year ago</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="img-container">
+            <img src="./image/hq720 (9).webp" alt="" class="img" />
+            
+            <div class="img-text">
+              <div>
+              <img src="./image/channels4_profile (1).jpg" alt="" class="newimg">
+            </div>
+
+            <div class="newtext">
+                <p class="title">How To Control Your Mind | Buddhism In English</p>
+                <p class="category">Buddhism</p>
+                <p class="views">1.9M views • 1 year ago</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="img-container">
+            <img src="./image/hq720 (10).webp" alt="" class="img" />
+            
+            <div class="img-text">
+              <div>
+              <img src="./image/channels4_profile (4).jpg" alt="" class="newimg">
+            </div>
+
+            <div class="newtext">
+                <p class="title">How To Control Your Mind | Buddhism In English</p>
+                <p class="category">Buddhism</p>
+                <p class="views">1.9M views • 1 year ago</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="img-container">
+            <img src="./image/hq720 (11).webp" alt="" class="img" />
+            
+            <div class="img-text">
+              <div>
+              <img src="./image/channels4_profile (1).jpg" alt="" class="newimg">
+            </div>
+
+            <div class="newtext">
+                <p class="title">How To Control Your Mind | Buddhism In English</p>
+                <p class="category">Buddhism</p>
+                <p class="views">1.9M views • 1 year ago</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="img-container">
+            <img src="./image/hq720 (12).webp" alt="" class="img" />
+            
+            <div class="img-text">
+              <div>
+              <img src="./image/channels4_profile (2).jpg" alt="" class="newimg">
+            </div>
+
+            <div class="newtext">
+                <p class="title">How To Control Your Mind | Buddhism In English</p>
+                <p class="category">Buddhism</p>
+                <p class="views">1.9M views • 1 year ago</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="img-container">
+            <img src="./image/hq720 (13).webp" alt="" class="img" />
+            
+            <div class="img-text">
+              <div>
+              <img src="./image/channels4_profile (1).jpg" alt="" class="newimg">
+            </div>
+
+            <div class="newtext">
+                <p class="title">How To Control Your Mind | Buddhism In English</p>
+                <p class="category">Buddhism</p>
+                <p class="views">1.9M views • 1 year ago</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="img-container">
+            <img src="./image/hq720 (14).webp" alt="" class="img" />
+            
+            <div class="img-text">
+              <div>
+              <img src="./image/channels4_profile (3).jpg" alt="" class="newimg">
+            </div>
+
+            <div class="newtext">
+                <p class="title">How To Control Your Mind | Buddhism In English</p>
+                <p class="category">Buddhism</p>
+                <p class="views">1.9M views • 1 year ago</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="img-container">
+            <img src="./image/hq720 (15).webp" alt="" class="img" />
+            
+            <div class="img-text">
+              <div>
+              <img src="./image/channels4_profile (1).jpg" alt="" class="newimg">
+            </div>
+
+            <div class="newtext">
+                <p class="title">How To Control Your Mind | Buddhism In English</p>
+                <p class="category">Buddhism</p>
+                <p class="views">1.9M views • 1 year ago</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="img-container">
+            <img src="./image/hq720 (16).webp" alt="" class="img" />
+            
+            <div class="img-text">
+              <div>
+              <img src="./image/channels4_profile (2).jpg" alt="" class="newimg">
+            </div>
+
+            <div class="newtext">
+                <p class="title">How To Control Your Mind | Buddhism In English</p>
+                <p class="category">Buddhism</p>
+                <p class="views">1.9M views • 1 year ago</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="img-container">
+            <img src="./image/hq720 (17).webp" alt="" class="img" />
+            
+            <div class="img-text">
+              <div>
+              <img src="./image/channels4_profile (4).jpg" alt="" class="newimg">
+            </div>
+
+            <div class="newtext">
+                <p class="title">How To Control Your Mind | Buddhism In English</p>
+                <p class="category">Buddhism</p>
+                <p class="views">1.9M views • 1 year ago</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="img-container">
+            <img src="./image/hq720 (19).webp" alt="" class="img" />
+            
+            <div class="img-text">
+              <div>
+              <img src="./image/channels4_profile (1).jpg" alt="" class="newimg">
+            </div>
+
+            <div class="newtext">
+                <p class="title">How To Control Your Mind | Buddhism In English</p>
+                <p class="category">Buddhism</p>
+                <p class="views">1.9M views • 1 year ago</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="img-container">
+            <img src="./image/hq720 (20).webp" alt="" class="img" />
+            
+            <div class="img-text">
+              <div>
+              <img src="./image/channels4_profile (1).jpg" alt="" class="newimg">
+            </div>
+
+            <div class="newtext">
+                <p class="title">How To Control Your Mind | Buddhism In English</p>
+                <p class="category">Buddhism</p>
+                <p class="views">1.9M views • 1 year ago</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="img-container">
+            <img src="./image/hq720 (21).webp" alt="" class="img" />
+            
+            <div class="img-text">
+              <div>
+              <img src="./image/channels4_profile (1).jpg" alt="" class="newimg">
+            </div>
+
+            <div class="newtext">
+                <p class="title">How To Control Your Mind | Buddhism In English</p>
+                <p class="category">Buddhism</p>
+                <p class="views">1.9M views • 1 year ago</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="img-container">
+            <img src="./image/hq720 (18).webp" alt="" class="img" />
+            
+            <div class="img-text">
+              <div>
+              <img src="./image/channels4_profile (1).jpg" alt="" class="newimg">
+            </div>
+
+            <div class="newtext">
+                <p class="title">How To Control Your Mind | Buddhism In English</p>
+                <p class="category">Buddhism</p>
+                <p class="views">1.9M views • 1 year ago</p>
+              </div>
+            </div>
+          </div>
 
        
-       <div class="second-img-bar">
-        <h3>You</h3>
-            <div class="History">
-                <img src="./image/History.svg" alt="">
-                <span>History</span>
-            </div>
 
-            <div class="Playlist">
-                <img src="./image/mucis-list.svg" alt="">
-                <span>Playlist</span>
-            </div>
-
-            <div class="watch-latter">
-                <img src="./image/watch-latter.svg" alt="">
-                <span>Watch latter</span>
-            </div>
-
-            <div class="liked">
-                <img src="./image/liked.svg" alt="">
-                <span>liked</span>
-            </div>
-
-       </div>
-
-
-
-      
-        
-
-       
-
+        <!-- </div>     -->
+      </div>
     </div>
   </body>
 </html>
